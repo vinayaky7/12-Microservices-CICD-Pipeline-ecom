@@ -80,7 +80,7 @@ eksctl create nodegroup --cluster=EKS-Cluster-Microservices \
                        --nodes-max=4 \
                        --node-volume-size=20 \
                        --ssh-access \
-                       --ssh-public-key=linkin-general-key \
+                       --ssh-public-key=keypairlinkin \
                        --managed \
                        --asg-access \
                        --external-dns-access \
